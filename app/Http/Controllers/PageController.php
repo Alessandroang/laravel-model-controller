@@ -12,6 +12,6 @@ class PageController extends Controller
         $movies = Movie::all();
 
         // Passa i film alla view
-        return view('movies', ['movies' => $movies]);
+        return view('movies', compact('movies'));
     }
 }
