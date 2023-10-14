@@ -31,6 +31,7 @@
                 <strong>Date:</strong> {{ $movie->date }}<br>
                 <strong>Vote:</strong> {{ $movie->vote }}
               </p>
+              <button class="btn btn-dark">Guarda il film</button>
             </div>
           </div>
         </div>
